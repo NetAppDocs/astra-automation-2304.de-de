@@ -28,7 +28,7 @@ settings:
   langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Dokumentation zur Astra Control Automation
+  - title: Dokumentation zu Astra Control Automation 23.04
     url: "/index.html"
   - section: rn
   - section: intro
