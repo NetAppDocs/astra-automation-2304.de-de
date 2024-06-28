@@ -671,7 +671,6 @@
   <block id="832210201d55f5c764a32c055a00b726" category="inline-link">Astra Control Automation 21.08 - Dokumentation</block>
   <block id="025fa2688359a439d7fa215fbbbaf287" category="list-text"><block ref="025fa2688359a439d7fa215fbbbaf287" category="inline-link-rx"></block></block>
   <block id="b844ee2db8fd78557f753d0c04015c4a" category="summary">Astra Control ist ein Softwareprodukt von NetApp für das Management des Daten-Lebenszyklus für Ihre Kubernetes-Applikationen. Je nach Umgebung sind zwei Implementierungsmodelle verfügbar. Je nach Version nutzen sowohl Astra Control Center als auch Astra Control Service dieselbe REST-API. DIE REST-API und andere verwandte Automatisierungstechnologien können Sie für das Management Ihrer Astra Control Implementierungen nutzen.</block>
-  <block id="1a0ca7f0a5aea880c24d544b4655d6ed" category="doc">Dokumentation der Astra Control Automation</block>
   <block id="d4b519107715681619ac9ac9f0e7c2e8" category="summary">Sie müssen einen LDAP-Server auswählen und Astra so konfigurieren, dass der Server als Authentifizierungsanbieter verwendet wird.</block>
   <block id="5eb4ace08e506648d2ccc5e95a6d5d96" category="doc">Konfigurieren Sie Astra für die Verwendung eines LDAP-Servers</block>
   <block id="a4cce93638d786143ceaec53646fcbd0" category="paragraph">Sie müssen einen LDAP-Server auswählen und Astra so konfigurieren, dass der Server als Authentifizierungsanbieter verwendet wird. Die Konfigurationsaufgabe besteht aus den unten beschriebenen Schritten. Jeder Schritt umfasst einen einzelnen REST-API-Aufruf.</block>
@@ -1198,8 +1197,6 @@
   <block id="9a5f09cf66e692efdae493ce4c9aa64f" category="sidebar">Vorbereitung</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="sidebar">Python</block>
   <block id="ea1c0b8e4018f75659e26eb720b206e5" category="sidebar">Native Verwendung von Python</block>
-  <block id="f21f22dde0e0692333a7a28cce456b08" category="sidebar">Die komplette Astra Dokumentation</block>
-  <block id="c216e952dc373af46e9e31e0b8bdcf89" category="sidebar">Astra Automation</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
   <block id="824ee32982b0cc1ac1aca8447c9cb3cf" category="sidebar">Applikationskontrolle</block>
@@ -1235,4 +1232,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="43a62b176f718092748cfb8e6a9afa19" category="sidebar">Dokumentation zu Astra Control Automation 23.04</block>
 </blocks>
