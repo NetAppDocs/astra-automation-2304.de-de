@@ -7,6 +7,7 @@ summary: Eine ASUP-Ressource abrufen
 ---
 = Eine ASUP-Ressource abrufen
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/asups/{asup_id}`#
@@ -15,6 +16,7 @@ Gibt die gespeicherte ASUP-API-Ressource im JSON-Antworttext zurück. Wenn das A
 
 
 
+[[parameters]]
 == Parameter
 
 [cols="5*"]
@@ -36,6 +38,7 @@ ID der aufzulistenden asup collection
 |===
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -177,6 +180,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -222,6 +226,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -272,6 +277,7 @@ Liste ungültiger Abfrageparameter
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -317,6 +323,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == Fehler
 
 [source]
@@ -362,11 +369,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == Definitionen
 
 .Siehe Definitionen
 [%collapsible]
 ====
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -386,6 +395,7 @@ type_astra_stateDetail
 | Detail | Zeichenkette | True  a| 
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 Typ_Astra_Label
 
@@ -401,6 +411,7 @@ Typ_Astra_Label
 | Wert | Zeichenkette | True  a| 
 
 |===
+[[type_astra_metadata]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata
 
@@ -433,6 +444,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 | modifiedBy | Zeichenkette | Falsch  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 

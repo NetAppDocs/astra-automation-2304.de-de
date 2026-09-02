@@ -7,6 +7,7 @@ summary: Listen Sie die AppMirror-Ressourcen für eine App auf
 ---
 = Listen Sie die AppMirror-Ressourcen für eine App auf
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/k8s/v1/apps/{app_id}/appMirrors`#
@@ -15,6 +16,7 @@ Gibt ein JSON-Array aller übereinstimmenden Ressourcen in der Sammlung zurück.
 
 
 
+[[parameters]]
 == Parameter
 
 [cols="5*"]
@@ -70,6 +72,7 @@ OpenAPI-Beispiele: "field eq 'value'"
 |===
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -231,6 +234,7 @@ Status: 200, Returns a JSON array of all matching resources in the collection. I
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -276,6 +280,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -326,6 +331,7 @@ Liste ungültiger Abfrageparameter
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -371,6 +377,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == Fehler
 
 [source]
@@ -416,11 +423,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == Definitionen
 
 .Siehe Definitionen
 [%collapsible]
 ====
+[[namespaceMapping]]
 [role="api-collapsible-fifth-title"]
 namespaceMapping
 
@@ -446,6 +455,7 @@ Liste der im Cluster zu verwendenden Namensräume. Korreliert mit der anderen Na
 
 
 |===
+[[storageClasses]]
 [role="api-collapsible-fifth-title"]
 storageClasses
 
@@ -470,6 +480,7 @@ Name der Speicherklasse, die beim Erstellen von PVCs auf dem in „clusterID“ 
 
 
 |===
+[[type_astra_stateTransition]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateTransition
 
@@ -485,6 +496,7 @@ type_astra_stateTransition
 | : | Array[string] | True  a| 
 
 |===
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -504,6 +516,7 @@ type_astra_stateDetail
 | Detail | Zeichenkette | True  a| 
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 Typ_Astra_Label
 
@@ -519,6 +532,7 @@ Typ_Astra_Label
 | Wert | Zeichenkette | True  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_update
 
@@ -551,6 +565,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 | modifiedBy | Zeichenkette | Falsch  a| 
 
 |===
+[[appMirror_1_0_get_response_body]]
 [role="api-collapsible-fifth-title"]
 appMirror_1.0_get_response_body
 
@@ -753,6 +768,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 
 
 |===
+[[type_astra_metadata_list]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_list
 
@@ -788,6 +804,7 @@ type_astra_metadata_list
 | modifiedBy | Zeichenkette | Falsch  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 

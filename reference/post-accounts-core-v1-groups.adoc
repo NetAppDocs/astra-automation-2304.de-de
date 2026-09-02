@@ -7,6 +7,7 @@ summary: Neue Gruppe erstellen
 ---
 = Neue Gruppe erstellen
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/groups`#
@@ -15,6 +16,7 @@ Gibt die gewünschten Werte für die zu erstellende Group-API-Ressource an.
 
 
 
+[[parameters]]
 == Parameter
 
 [cols="5*"]
@@ -31,6 +33,7 @@ ID der übergeordneten Kontoressource
 |===
 
 
+[[request-body]]
 == Anfragetext
 
 Gibt die gewünschten Werte für die zu erstellende Group-API-Ressource an.
@@ -107,6 +110,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -200,6 +204,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -250,6 +255,7 @@ Liste ungültiger Anfragetextfelder
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -295,6 +301,7 @@ Status: 403, Forbidden
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -340,6 +347,7 @@ Status: 406, Not acceptable
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -385,6 +393,7 @@ Status: 500, Internal server error
 ====
 
 
+[[error]]
 == Fehler
 
 [source]
@@ -435,11 +444,13 @@ Liste ungültiger Abfrageparameter
 ====
 
 
+[[definitions]]
 == Definitionen
 
 .Siehe Definitionen
 [%collapsible]
 ====
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 Typ_Astra_Label
 
@@ -455,6 +466,7 @@ Typ_Astra_Label
 | Wert | Zeichenkette | True  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_update
 
@@ -487,6 +499,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 | modifiedBy | Zeichenkette | Falsch  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
@@ -504,6 +517,7 @@ Name des ungültigen Abfrageparameters
 Grund, warum der Abfrageparameter ungültig ist
 
 |===
+[[invalidFields]]
 [role="api-collapsible-fifth-title"]
 invalidFields
 

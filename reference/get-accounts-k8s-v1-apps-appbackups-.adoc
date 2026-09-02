@@ -7,6 +7,7 @@ summary: Eine Anwendungssicherung für eine App abrufen
 ---
 = Eine Anwendungssicherung für eine App abrufen
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/k8s/v1/apps/{app_id}/appBackups/{appBackup_id}`#
@@ -15,6 +16,7 @@ Gibt die gespeicherte Application Backup API-Ressource im JSON-Antworttext zurü
 
 
 
+[[parameters]]
 == Parameter
 
 [cols="5*"]
@@ -41,6 +43,7 @@ ID der appBackup-Sammlung, die aufgelistet werden soll
 |===
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -207,6 +210,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -252,6 +256,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -302,6 +307,7 @@ Liste ungültiger Abfrageparameter
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -347,6 +353,7 @@ Status: 403, Forbidden
 ====
 
 
+[[response]]
 == Antwort
 
 [source]
@@ -392,6 +399,7 @@ Status: 500, Internal server error
 ====
 
 
+[[error]]
 == Fehler
 
 [source]
@@ -437,11 +445,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == Definitionen
 
 .Siehe Definitionen
 [%collapsible]
 ====
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -461,6 +471,7 @@ type_astra_stateDetail
 | Detail | Zeichenkette | True  a| 
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 Typ_Astra_Label
 
@@ -476,6 +487,7 @@ Typ_Astra_Label
 | Wert | Zeichenkette | True  a| 
 
 |===
+[[type_astra_metadata]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata
 
@@ -508,6 +520,7 @@ Client- und dienstspezifische Metadaten, die der Ressource zugeordnet sind. Folg
 | modifiedBy | Zeichenkette | Falsch  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
